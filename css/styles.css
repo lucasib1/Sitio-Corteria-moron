@@ -1,0 +1,232 @@
+/*---RESET---*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---HEADER---*/
+
+
+header {
+    background-color: white;  
+    position: sticky;  /*---posicion fija---*/
+    top: 0; 
+    margin: 5px;
+    font-size: 35px;
+}
+
+header ul li a img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+
+/*---MAIN---*/ 
+
+
+.menu{
+    margin: 20px;
+    padding: 20px;
+    width: 100%; /*---ancho---*/
+    height: auto; /*---largo---*/
+    border: 1px solid rgb(255, 0, 0); /*---borde---*/
+    display: flex; /*---propierdad de flexbox---*/
+    flex-direction: row;
+}
+
+*/
+
+.menu div{
+width: 100%;
+padding: 20px;
+margin: 20px;
+}
+
+.menu div img{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.uno{
+    width: 65%;
+}
+
+/*---section 1---*/ 
+
+section h1{
+    color:red ;
+}
+
+section p{
+font-size: 35px;/*---medida letra---*/
+}
+
+h2{
+    color: red;
+}
+
+.menu-parrafo::first-letter{/*---seudo elemendo---*/
+    font-size: 50px;
+    color: red;
+}
+
+.centrar{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/*---section 2---*
+
+/* 
+.dobleimage .dale{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 20px;
+    border: 20 px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+-*/
+
+.dobleimagen .dale{
+    width: 100%;
+    display: grid;
+    grid-template-rows:50% 50% ;
+    text-align: center;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    gap: 20px;
+} 
+
+
+.dobleimagen h3{
+    color: red;
+    font-size: 25px;
+}
+
+
+
+/*---section 3--*/
+
+
+.tienda .sec{
+    margin: 20px;
+    padding: 20px;
+    width: 100%; /*---ancho---*/
+    height: auto; /*---largo---*/
+    border: 1px solid rgb(255, 0, 0); /*---borde---*/
+    display: flex; /*---propierdad de flexbox---*/
+    flex-direction: row;
+}
+
+.img{
+    padding: 20px;
+    width: 65%;
+}
+
+.tienda h3{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+
+/*---section 4---*/
+
+button{
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*---seudoclass---*/
+
+button:hover{
+    color: #000;
+    
+
+}
+
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.centrar p {
+    margin: 10px;
+    padding: 15px;
+    font-size: 35px;
+
+}
+
+/*---icono whatsapp---*/
+
+.whatsapp {position: fixed;
+bottom: 50px;
+right: 15px;
+padding: 25px;
+}
+
+.whatsapp img{ 
+    width: 88px;
+}
+
+/*---FOOTER---*/
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+footer  ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer  ul li {
+    margin: 5px;
+    display: inline-block;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+
+/*---contacto---*/
+
+
+.contacto div h1 {
+    color: black;
+    font-size: 35px;
+}
+
+
+.contacto div h1 h2{
+    color: black;
+}
