@@ -7,25 +7,30 @@
     box-sizing: border-box;
 }
 
-/*---HEADER---*/
+
+
+/*---------------------HEADER---------------------*/
 
 
 header {
     background-color: white;  
-    position: sticky;  /*---posicion fija---*/
-    top: 0; 
-    margin: 5px;
-    font-size: 35px;
+    /*- position: sticky; /*---posicion fija----*/
 }
 
-header ul li a img{
-    height: 200px;
-    width: 200px;
+header li{
+    list-style: none;
+}
+
+
+header li a img{
+    height: 100px;
+    width: 100px;
     padding: 20px;
 }
 
 
-/*---MAIN---*/ 
+
+/*------------------------MAIN----------------------*/ 
 
 
 .menu{
@@ -33,12 +38,9 @@ header ul li a img{
     padding: 20px;
     width: 100%; /*---ancho---*/
     height: auto; /*---largo---*/
-    border: 1px solid rgb(255, 0, 0); /*---borde---*/
     display: flex; /*---propierdad de flexbox---*/
     flex-direction: row;
 }
-
-*/
 
 .menu div{
 width: 100%;
@@ -81,37 +83,22 @@ h2{
 }
 
 
-/*---section 2---*
-
-/* 
-.dobleimage .dale{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 20px;
-    border: 20 px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
--*/
+/*---section 2---*/
 
 .dobleimagen .dale{
     width: 100%;
+    height: auto;
     display: grid;
-    grid-template-rows:50% 50% ;
+    grid-template-rows:43%;
     text-align: center;
     margin: 20px;
     border: 20px;
     padding: 20px;
-    gap: 20px;
 } 
-
 
 .dobleimagen h3{
     color: red;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 
@@ -119,31 +106,30 @@ h2{
 /*---section 3--*/
 
 
-.tienda .sec{
+.tiendao{
     margin: 20px;
     padding: 20px;
     width: 100%; /*---ancho---*/
     height: auto; /*---largo---*/
-    border: 1px solid rgb(255, 0, 0); /*---borde---*/
     display: flex; /*---propierdad de flexbox---*/
     flex-direction: row;
 }
 
-.img{
+.tienda div{
+    width: 100%;
     padding: 20px;
-    width: 65%;
-}
+    margin: 20px;
+    }
+    
+    .dos{
+        width: 50%;
+    }
 
-.tienda h3{
-    text-align: center;
-    color: red;
-    font-size: 35px;
-}
+
 
 /*---section 4---*/
 
-button{
-    text-decoration: none;
+.button button {
     background-color:red;
     color: white;
     padding: 20px;
@@ -153,6 +139,11 @@ button{
     align-content: center;
     text-align: center;
     font-size: 30px;
+}
+
+
+.button a{
+    text-decoration: none;
 }
 
 
@@ -192,7 +183,7 @@ padding: 25px;
     width: 88px;
 }
 
-/*---FOOTER---*/
+/*-----------------------FOOTER--------------------*/
 
 
 footer{
@@ -215,6 +206,7 @@ footer  ul li {
 
 footer ul li a {
     text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -230,3 +222,5 @@ footer ul li a {
 .contacto div h1 h2{
     color: black;
 }
+
+/*-------------------------------COMUNIDAD-------------------------------*/
