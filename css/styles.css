@@ -151,7 +151,7 @@ h2{
     align-items: center;
     align-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -214,6 +214,10 @@ footer{
     text-align: center;
 }
 
+footer iframe{
+    width: 200px;
+    height: auto;
+}
 footer  ul{
     list-style: none;
     text-align: center;
@@ -244,3 +248,18 @@ footer ul li a {
 }
 
 /*-------------------------------COMUNIDAD-------------------------------*/
+
+
+.comunidad {
+    width: 50%;
+padding: 20px;
+}
+
+
+/*-------------------------------quienes somos-------------------------------*/
+
+.quienessomos{
+    width: 80%;
+    text-align: center;
+
+}
