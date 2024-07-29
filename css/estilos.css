@@ -63,9 +63,9 @@ header {
   text-align: center;
   margin: 20px;
   border: 20px;
-  padding: 20px 25%; }
+  padding: 20px; }
   .dobleimagen .edredon div img {
-    width: 70;
+    width: 50%;
     height: auto; }
   .dobleimagen .edredon h3 {
     color: red;
@@ -73,7 +73,7 @@ header {
   .dobleimagen .edredon p {
     color: #000; }
   .dobleimagen .edredon div img {
-    width: 70%;
+    width: 50%;
     height: auto; }
   .dobleimagen .edredon h3 {
     color: red;
