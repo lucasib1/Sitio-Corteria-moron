@@ -3,9 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
+    width: 100%;
+    height: auto;
     }
+    .hero {
+        width: 100%;
+    }
+    .h1{width: 100%;}
+    .menu-parrafo{width: 100%;}
 }
 
 
@@ -14,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px;
-    padding: 20px;
-    }
+    width: 100%;
+    height:auto;
+}
 }
