@@ -19,6 +19,7 @@ header {
   width: 100%;
   height: auto;
   display: flex;
+  overflow: hidden;
   margin: 10px; }
   .menu .hero {
     width: 70%;
@@ -84,7 +85,8 @@ header {
   height: auto;
   /*---largo---*/
   display: flex;
-  /*---propierdad de flexbox---*/ }
+  /*---propierdad de flexbox---*/
+  overflow: hidden; }
   .tiendao .corteria .centrar {
     width: 70%;
     color: #ff0000; }

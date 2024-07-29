@@ -29,6 +29,7 @@ header{
     width: 100%; 
     height: auto; 
     display: flex;
+    overflow: hidden;
     margin: 10px;
     
     .hero{width: 70%;
@@ -114,6 +115,7 @@ header{
     width: 100%; /*---ancho---*/
     height: auto; /*---largo---*/
     display: flex; /*---propierdad de flexbox---*/
+    overflow: hidden;
     .corteria{
         .centrar{width: 70%;
             color: #ff0000;
