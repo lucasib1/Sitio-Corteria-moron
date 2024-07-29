@@ -1,0 +1,23 @@
+footer{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    iframe{align-content: center;
+        width: 200px;
+        height: auto;
+    }
+    ul{ list-style: none;
+        text-align: center;
+        li{margin: 5px;
+            display: inline-block;
+        a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        }
+    }
+    div{
+        a{text-decoration: none;
+
+        }
+    }
+}

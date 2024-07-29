@@ -1,0 +1,154 @@
+
+.menu{
+    margin: 10px;
+    padding: 10px;
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    overflow: hidden;
+    margin: 10px;
+    
+    .hero{width: 70%;
+    height: auto;
+    padding: 10px;
+    border: 10px;
+
+    .centrar{
+        text-align: center;
+        font-size: 30px;
+        color: $color-principal;
+    }
+    .menu-parrafo{
+        &::first-letter{
+        font-size: 25px;
+        color: $color-principal;
+    }
+    font-size: 20px;
+    }
+    .centrar{ text-align: center;
+        font-size: 30px;
+    }
+    
+}
+.tiendac{
+    
+    width: 70%;
+    img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+}
+
+
+/*--section2--*/
+.dobleimagen{
+.blanqueria{text-align: center;
+    color: $color-principal;
+}
+.edredon{width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows:auto;
+    text-align: center;
+    margin: 20px;
+    border: 20px ;
+    padding: 20px 25%;
+    div{
+        img{width: 70;
+            height: auto;
+            
+
+        }
+    }
+    h3{color:$color-principal;
+        font-size: 35px;
+
+    }
+    p{color: #000;
+
+    }
+    div{
+        img{width: 70%;
+            height: auto;
+
+        }
+    }
+    h3{color: $color-principal;
+        font-size: 35px;
+
+    }
+    p{color: #000;
+        
+    }
+}
+}
+
+/*--section3--*/
+.tiendao{   margin: 10px;
+    padding: 10px;
+    width: 100%; /*---ancho---*/
+    height: auto; /*---largo---*/
+    display: flex; /*---propierdad de flexbox---*/
+    overflow: hidden;
+    .corteria{
+        .centrar{width: 70%;
+            color: $color-principal;
+            h3{
+                p{color: #000;
+                }
+            }
+        }
+    }
+    div{width: 70%;
+        img{height: auto;
+            width:100%;
+        }
+    }
+}
+/*--section4--*/
+
+.telas{    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px ;
+h2{color: $color-principal;
+
+}
+div{
+    img{    height: auto;
+        width: 500px;
+        p{    margin: 10px;
+            padding: 15px;
+            font-size: 27px;
+
+        }
+    }
+}
+.button{
+    button{background-color:$color-principal;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+        align-items: center;
+        font-size: 20px;}    
+    a{    text-decoration: none;
+        &:hover{
+        color: #000;
+    }
+    }
+}
+}
+.whatsapp{position: fixed;
+    bottom: 50px;
+    right: 15px;
+    padding: 25px;
+    
+    a{
+        img{
+            height: 88px;
+        }
+    }
+}

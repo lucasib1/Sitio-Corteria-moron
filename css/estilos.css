@@ -1,3 +1,9 @@
+/*---RESET---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header {
   background-color: white;
   position: sticky;
@@ -12,7 +18,6 @@ header {
   header nav ul li a {
     text-decoration: none; }
 
-/*--section1--*/
 .menu {
   margin: 10px;
   padding: 10px;
@@ -48,7 +53,7 @@ header {
 /*--section2--*/
 .dobleimagen .blanqueria {
   text-align: center;
-  color: #ff0000; }
+  color: red; }
 
 .dobleimagen .edredon {
   width: 100%;
@@ -89,7 +94,7 @@ header {
   overflow: hidden; }
   .tiendao .corteria .centrar {
     width: 70%;
-    color: #ff0000; }
+    color: red; }
     .tiendao .corteria .centrar h3 p {
       color: #000; }
   .tiendao div {
@@ -106,7 +111,7 @@ header {
   text-align: center;
   padding: 10px; }
   .telas h2 {
-    color: #ff0000; }
+    color: red; }
   .telas div img {
     height: auto;
     width: 500px; }
