@@ -158,6 +158,17 @@ main h1 {
   color: red;
   font-size: 35px; }
 
+main h2 {
+  color: red;
+  font-size: 35px; }
+
+main p {
+  font-size: 25px; }
+
+main h3 {
+  color: red;
+  font-size: 35px; }
+
 main p {
   font-size: 25px; }
 
