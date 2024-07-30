@@ -140,6 +140,27 @@ header {
   .whatsapp a img {
     height: 88px; }
 
+/*--quienes somos--*/
+.quienessomos h1 {
+  color: red;
+  font-size: 35px; }
+
+.quienessomos p {
+  font-size: 25px; }
+
+.quienessomos img {
+  width: 500px;
+  height: 500px;
+  align-items: center; }
+
+/*--preguntas frecuentes--*/
+main h1 {
+  color: red;
+  font-size: 35px; }
+
+main p {
+  font-size: 25px; }
+
 footer {
   display: flex;
   flex-direction: column;

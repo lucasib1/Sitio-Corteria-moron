@@ -153,3 +153,28 @@ div{
         }
     }
 }
+
+/*--quienes somos--*/
+.quienessomos{
+h1{color: $color-principal;
+font-size: 35px;
+}
+p{font-size: 25px;
+
+}
+img{width: 500px;
+    height: 500px;
+    align-items: center;
+}
+}
+
+/*--preguntas frecuentes--*/
+main{
+    h1{
+        color: $color-principal;
+        font-size: 35px;
+    }
+    p{font-size: 25px;
+
+    }
+}
