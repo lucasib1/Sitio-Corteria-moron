@@ -6,13 +6,10 @@
     height: auto; 
     display: flex;
     overflow: hidden;
-    margin: 10px;
-    
+
     .hero{width: 70%;
     height: auto;
-    padding: 10px;
-    border: 10px;
-
+    
     .centrar{
         text-align: center;
         font-size: 30px;
@@ -25,8 +22,8 @@
     }
     font-size: 20px;
     }
-    .centrar{ text-align: center;
-        font-size: 30px;
+    .centrara{ text-align: center;
+        font-size: 20px;
     }
     
 }
@@ -44,48 +41,52 @@
 
 /*--section2--*/
 .dobleimagen{
-.blanqueria{text-align: center;
+.ofresemos{text-align: center;
     color: $color-principal;
+    font-size: 30px;
 }
-.edredon{width: 100%;
+.variedad{width: 100%;
     height: auto;
     display: grid;
     grid-template-rows:auto;
     text-align: center;
-    margin: 20px;
-    border: 20px ;
-    padding: 20px;
     div{
-        img{width: 50%;
-            height: auto;
-            
-
-        }
-    }
     h3{color:$color-principal;
         font-size: 35px;
-
     }
     p{color: #000;
-
+        font-size: 20px;
+        } 
     }
     div{
         img{width: 50%;
             height: auto;
-
+        }
+    h4{color: $color-principal;
+        font-size: 35px;
+    }
+    p{color: #000;
+        font-size: 20px;
+        
         }
     }
-    h3{color: $color-principal;
+    div{
+        img{width: 50%;
+            height: auto;
+        }
+    
+    h5{color: $color-principal;
         font-size: 35px;
 
     }
     p{color: #000;
-        
-    }
+        font-size: 20px;
+            }
+        }
+    } 
 }
-}
-
 /*--section3--*/
+
 .tiendao{   margin: 10px;
     padding: 10px;
     width: 100%; /*---ancho---*/
@@ -94,19 +95,25 @@
     overflow: hidden;
     .corteria{
         .centrar{width: 70%;
-            color: $color-principal;
-            h3{
-                p{color: #000;
-                }
-            }
+            color: $color-principal;}
+        h3{
+            color:$color-principal
+            ;
+            font-size: 25px;}
+            text-align: center;
         }
-    }
+        p{color: #000;
+        font-size: 20px;
+        margin: 20px;
+                }
     div{width: 70%;
         img{height: auto;
             width:100%;
         }
     }
-}
+    }
+
+
 /*--section4--*/
 
 .telas{    width: 100%;
@@ -114,19 +121,34 @@
     flex-direction: column;
     overflow: hidden;
     text-align: center;
-    padding: 10px ;
+
 h2{color: $color-principal;
 
 }
 div{
     img{    height:auto;
-        width: 50%;
-        p{    margin: 10px;
-            padding: 15px;
-            font-size: 27px;
+        width: 50%;}
+
+        p{ 
+            font-size: 20px;
 
         }
-    }
+}
+div{
+    img{    height:auto;
+        width: 50%;}
+        p{ 
+            font-size: 20px;
+        }
+    
+}
+div{
+    img{    height:auto;
+        width: 50%;}
+        p{  
+            font-size: 20px;
+        }
+    
 }
 .button{
     button{background-color:$color-principal;
@@ -134,7 +156,8 @@ div{
         padding: 20px;
         margin: 20px;
         align-items: center;
-        font-size: 20px;}    
+        font-size: 20px;
+    }    
     a{    text-decoration: none;
         &:hover{
         color: #000;
@@ -143,7 +166,7 @@ div{
 }
 }
 .whatsapp{position: fixed;
-    bottom: 50px;
+    bottom: 30px;
     right: 15px;
     padding: 25px;
     
@@ -156,37 +179,87 @@ div{
 
 /*--quienes somos--*/
 .quienessomos{
-h1{color: $color-principal;
-font-size: 35px;
-}
-p{font-size: 25px;
+    div{
+        h1{color: $color-principal;
+            font-size: 35px;
+            text-align: center;
+            }
+            p{font-size: 20px;
+    }
 
 }
-img{width: 500px;
-    height: 500px;
-    align-items: center;
+div{
+    h2{color: $color-principal;
+        font-size: 35px;
+        text-align: center;
+        }
+        p{font-size: 20px;
 }
+
 }
+div{
+    h3{color: $color-principal;
+        font-size: 35px;
+        text-align: center;
+        }
+        p{font-size: 20px;
+}
+
+}
+div{
+    h4{color: $color-principal;
+        font-size: 35px;
+        text-align: center;
+        }
+        p{font-size: 20px;
+}
+
+
+}
+
+}
+div{
+    h5{color: $color-principal;
+        font-size: 35px;
+        text-align: center;
+        }
+
+    p{font-size: 20px;
+    }
+    
+
+    p{font-size: 20px;
+    }
+    
+
+    
+    p{font-size: 20px;
+    }
+}
+
 
 /*--preguntas frecuentes--*/
 main{
     h1{
         color: $color-principal;
         font-size: 35px;
+        text-align: center;
     }
     h2{  color: $color-principal;
         font-size: 35px;
+        text-align: center;
 
     }
 
-    p{font-size: 25px;
+    p{font-size: 20px;
 
     }
     h3{  color: $color-principal;
         font-size: 35px;
+        text-align: center;
 
     }
-    p{font-size: 25px;
+    p{font-size: 20px;
 
     }
 }

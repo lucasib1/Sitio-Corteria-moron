@@ -24,13 +24,10 @@ header {
   width: 100%;
   height: auto;
   display: flex;
-  overflow: hidden;
-  margin: 10px; }
+  overflow: hidden; }
   .menu .hero {
     width: 70%;
-    height: auto;
-    padding: 10px;
-    border: 10px; }
+    height: auto; }
     .menu .hero .centrar {
       text-align: center;
       font-size: 30px;
@@ -40,9 +37,9 @@ header {
       .menu .hero .menu-parrafo::first-letter {
         font-size: 25px;
         color: red; }
-    .menu .hero .centrar {
+    .menu .hero .centrara {
       text-align: center;
-      font-size: 30px; }
+      font-size: 20px; }
   .menu .tiendac {
     width: 70%; }
     .menu .tiendac img {
@@ -51,35 +48,41 @@ header {
       padding: 10px; }
 
 /*--section2--*/
-.dobleimagen .blanqueria {
+.dobleimagen .ofresemos {
   text-align: center;
-  color: red; }
+  color: red;
+  font-size: 30px; }
 
-.dobleimagen .edredon {
+.dobleimagen .variedad {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-rows: auto;
-  text-align: center;
-  margin: 20px;
-  border: 20px;
-  padding: 20px; }
-  .dobleimagen .edredon div img {
-    width: 50%;
-    height: auto; }
-  .dobleimagen .edredon h3 {
+  text-align: center; }
+  .dobleimagen .variedad div h3 {
     color: red;
     font-size: 35px; }
-  .dobleimagen .edredon p {
-    color: #000; }
-  .dobleimagen .edredon div img {
+  .dobleimagen .variedad div p {
+    color: #000;
+    font-size: 20px; }
+  .dobleimagen .variedad div img {
     width: 50%;
     height: auto; }
-  .dobleimagen .edredon h3 {
+  .dobleimagen .variedad div h4 {
     color: red;
     font-size: 35px; }
-  .dobleimagen .edredon p {
-    color: #000; }
+  .dobleimagen .variedad div p {
+    color: #000;
+    font-size: 20px; }
+  .dobleimagen .variedad div img {
+    width: 50%;
+    height: auto; }
+  .dobleimagen .variedad div h5 {
+    color: red;
+    font-size: 35px; }
+  .dobleimagen .variedad div p {
+    color: #000;
+    font-size: 20px; }
 
 /*--section3--*/
 .tiendao {
@@ -92,11 +95,18 @@ header {
   display: flex;
   /*---propierdad de flexbox---*/
   overflow: hidden; }
-  .tiendao .corteria .centrar {
-    width: 70%;
-    color: red; }
-    .tiendao .corteria .centrar h3 p {
-      color: #000; }
+  .tiendao .corteria {
+    text-align: center; }
+    .tiendao .corteria .centrar {
+      width: 70%;
+      color: red; }
+    .tiendao .corteria h3 {
+      color: red;
+      font-size: 25px; }
+  .tiendao p {
+    color: #000;
+    font-size: 20px;
+    margin: 20px; }
   .tiendao div {
     width: 70%; }
     .tiendao div img {
@@ -109,17 +119,24 @@ header {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  text-align: center;
-  padding: 10px; }
+  text-align: center; }
   .telas h2 {
     color: red; }
   .telas div img {
     height: auto;
     width: 50%; }
-    .telas div img p {
-      margin: 10px;
-      padding: 15px;
-      font-size: 27px; }
+  .telas div p {
+    font-size: 20px; }
+  .telas div img {
+    height: auto;
+    width: 50%; }
+  .telas div p {
+    font-size: 20px; }
+  .telas div img {
+    height: auto;
+    width: 50%; }
+  .telas div p {
+    font-size: 20px; }
   .telas .button button {
     background-color: red;
     color: white;
@@ -134,43 +151,80 @@ header {
 
 .whatsapp {
   position: fixed;
-  bottom: 50px;
+  bottom: 30px;
   right: 15px;
   padding: 25px; }
   .whatsapp a img {
     height: 88px; }
 
 /*--quienes somos--*/
-.quienessomos h1 {
+.quienessomos div h1 {
   color: red;
-  font-size: 35px; }
+  font-size: 35px;
+  text-align: center; }
 
-.quienessomos p {
-  font-size: 25px; }
+.quienessomos div p {
+  font-size: 20px; }
 
-.quienessomos img {
-  width: 500px;
-  height: 500px;
-  align-items: center; }
+.quienessomos div h2 {
+  color: red;
+  font-size: 35px;
+  text-align: center; }
+
+.quienessomos div p {
+  font-size: 20px; }
+
+.quienessomos div h3 {
+  color: red;
+  font-size: 35px;
+  text-align: center; }
+
+.quienessomos div p {
+  font-size: 20px; }
+
+.quienessomos div h4 {
+  color: red;
+  font-size: 35px;
+  text-align: center; }
+
+.quienessomos div p {
+  font-size: 20px; }
+
+div h5 {
+  color: red;
+  font-size: 35px;
+  text-align: center; }
+
+div p {
+  font-size: 20px; }
+
+div p {
+  font-size: 20px; }
+
+div p {
+  font-size: 20px; }
 
 /*--preguntas frecuentes--*/
 main h1 {
   color: red;
-  font-size: 35px; }
+  font-size: 35px;
+  text-align: center; }
 
 main h2 {
   color: red;
-  font-size: 35px; }
+  font-size: 35px;
+  text-align: center; }
 
 main p {
-  font-size: 25px; }
+  font-size: 20px; }
 
 main h3 {
   color: red;
-  font-size: 35px; }
+  font-size: 35px;
+  text-align: center; }
 
 main p {
-  font-size: 25px; }
+  font-size: 20px; }
 
 footer {
   display: flex;
